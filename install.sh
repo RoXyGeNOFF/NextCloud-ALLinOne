@@ -26,3 +26,15 @@ docker run   --sig-proxy=false   --name nextcloud-aio-mastercontainer   --restar
 echo "✅ Nextcloud запущен!"
 echo "🌐 Открой в браузере: https://$NEXTCLOUD_TRUSTED_DOMAINS:8443"
 echo "⚠️ Если сертификат не доверенный — просто подтверди исключение (для локальной сети это нормально)."
+
+echo ""
+echo "💖 Поддержать разработчика (USDT TRC20)"
+echo "Адрес: TDb2rmYkYGoX2o322JmPR12oAUJbkgtaWg"
+echo "QR-код сохранён в файле donate_qr.jpeg"
+
+# Попробовать открыть QR-код автоматически
+if command -v xdg-open &> /dev/null; then
+    xdg-open donate_qr.jpeg
+elif command -v open &> /dev/null; then
+    open donate_qr.jpeg
+fi
