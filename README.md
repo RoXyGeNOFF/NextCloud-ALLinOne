@@ -6,8 +6,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/USERNAME/my-nextcloud-install.git
-cd my-nextcloud-install
+git clone https://github.com/RoXyGeNOFF/NextCloud-ALLinOne.git
+cd NextCloud-ALLinOne
 ```
 
 2. Скопируйте `.env.example` в `.env` и отредактируйте:
